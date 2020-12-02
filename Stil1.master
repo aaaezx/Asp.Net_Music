@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Stil1.master.cs" Inherits="Stil1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style5 {
+            width: 1300px;
+            height: 589px;
+        }
+        .auto-style7 {
+            height: 81px;
+            width: 1300px;
+        }
+        .auto-style8 {
+            height: 124px;
+            width: 1300px;
+			text-align: center;
+		}
+        .auto-style9 {
+            width: 1300px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    </div>
+        <table cellpadding="0" cellspacing="0" class="auto-style5">
+            <tr>
+                <td class="auto-style8" colspan="0" style="font-family: 'LG Smart UI Light'; background-color: #E3DFDF;">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/image/로고_4.png" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style7" colspan="0" rowspan="0" style="font-family: 'LG Smart UI Light'; background-color: #EEEEEE;">
+                    <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/image/HOME.png" PostBackUrl="~/home.aspx" Width="90px" />
+&nbsp;<asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/image/MUSIC1.png" PostBackUrl="~/music homepage/music.aspx" Width="90px" />
+					&nbsp; <asp:ImageButton ID="ImageButton3" runat="server" ImageUrl="~/image/SEARCH.png" PostBackUrl="~/그외/검색.aspx" Width="90px" />
+				&nbsp;&nbsp; <asp:ImageButton ID="ImageButton4" runat="server" ImageUrl="~/image/한줄리뷰.png" PostBackUrl="~/한줄리뷰.aspx" Width="90px" />
+				</td>
+            </tr>
+            <tr>
+                <td class="auto-style9" colspan="0" style="font-family: 'LG Smart UI Light'">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>
